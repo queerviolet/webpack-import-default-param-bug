@@ -4,6 +4,8 @@ const sum = (x, y, total=x + y) => total
 
 global.sum = sum
 
+export default sum
+
 if (global.document) {
   document.body.innerHTML = `
   <p>status: <b>${sum(2, 3) !== 2 + 3 ? 'BROKEN' : 'OK'}</b></p>
