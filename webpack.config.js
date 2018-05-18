@@ -10,7 +10,7 @@ module.exports = () => ({
   mode: 'development',  
   plugins: [
     new Html({template: 'index.html'})
-  ]  
+  ]
 })
 
 const isImage = /\.(png|jpg|jpeg|gif|svg)$/
